@@ -1,0 +1,29 @@
+type: choice
+is_multiple_choice: true
+options:
+- text: ' to invoke methods and constructors of the base class'
+- text: ' to prohibit a class from subclassing'
+- text: to extend a class
+- text: ' to access fields of the base class'
+files:
+- name: src/Task.java
+  visible: true
+  text: |
+    // You can experiment here, it won’t be checked
+
+    public class Task {
+      public static void main(String[] args) {
+        // put your code here
+      }
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/3043#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Tue, 09 May 2023 12:18:12 UTC"
+record: -1
+selected_options:
+- 0
+- 3
+local_check: false
