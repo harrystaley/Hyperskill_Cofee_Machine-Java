@@ -1,77 +1,71 @@
+```markdown
 # Hyperskill Coffee Machine - Java
 
-This repository contains a Java-based project that simulates the operations of a coffee machine. It was developed as part of the educational exercises on the Hyperskill platform. The project is designed to help learners understand and implement basic programming concepts in Java, such as variables, conditions, loops, and methods.
+Welcome to the Hyperskill Coffee Machine project! This Java-based application simulates a coffee machine, developed as part of the Hyperskill learning platform. This repository is intended to serve as a template for creating new GitHub repositories.
 
-## Project Structure
+## Project Overview
 
-The project is structured as follows:
+The Hyperskill Coffee Machine is a console-based application that emulates the basic functionalities of a coffee vending machine. It allows users to choose from different coffee types, manage resources, and simulate the process of making coffee.
 
-- `src/`: This directory contains all the Java source files necessary to run the coffee machine simulation.
-  - `Main.java`: The main class that initializes and runs the coffee machine.
-  - `CoffeeMachine.java`: Contains the logic for the different operations of the coffee machine.
-- `README.md`: Provides an overview of the project, installation instructions, and other useful information.
-- `.gitignore`: Specifies intentionally untracked files to ignore.
+## Features
+
+- **Interactive Command-Line Interface**: Engage with the coffee machine through a simple CLI.
+- **Resource Management**: Track and manage coffee machine resources like water, milk, coffee beans, and disposable cups.
+- **Multiple Coffee Options**: Choose from various coffee recipes such as espresso, latte, and cappuccino.
+- **Refill and Maintenance**: Add resources and collect earnings from the machine.
+- **Simulation of Real-World Logic**: Experience the decision-making process involved in beverage preparation.
 
 ## Setup and Installation
 
-### Prerequisites
+To get started with the Hyperskill Coffee Machine, ensure you have Java installed on your machine. Follow these steps to set up the project:
 
-- Java JDK 11 or higher
-- A Java IDE such as IntelliJ IDEA, Eclipse, or VSCode
-
-### Installation Steps
-
-1. **Clone the Repository**
+1. **Clone the Repository**:
    ```bash
    git clone https://github.com/yourusername/Hyperskill_Coffee_Machine-Java.git
    cd Hyperskill_Coffee_Machine-Java
    ```
 
-2. **Open the Project**
-   - Open your Java IDE and import the project by selecting the `Hyperskill_Coffee_Machine-Java` directory.
+2. **Compile the Java Program**:
+   ```bash
+   javac CoffeeMachine.java
+   ```
 
-3. **Build the Project**
-   - Most IDEs support building the project through an integrated build tool like Maven or Gradle. If your IDE does not handle builds, you can compile the Java files manually from the terminal:
-     ```bash
-     javac src/*.java
-     ```
+3. **Run the Application**:
+   ```bash
+   java CoffeeMachine
+   ```
 
-4. **Run the Project**
-   - After building, run the `Main.java` file either through your IDE or from the command line:
-     ```bash
-     java -cp src Main
-     ```
+## Usage Examples
 
-## Usage
+Once the application is running, you'll be greeted with options to:
+- Buy a coffee by selecting from available types.
+- Check remaining resources.
+- Refill the machine with necessary supplies.
+- Collect earnings from coffee sales.
 
-To use the coffee machine simulation, follow these steps after installation:
-
-1. Start the application as described in the "Run the Project" section.
-2. Interact with the coffee machine through the console. The program will prompt you for actions such as buying coffee, filling ingredients, taking money, etc.
-
-Example:
-```
-Choose action (buy, fill, take, remaining, exit): 
-buy
-What do you want to buy? 1 - espresso, 2 - latte, 3 - cappuccino: 
-1
+Example interaction:
+```plaintext
+Write action (buy, fill, take, remaining, exit):
+> buy
+What do you want to buy? 1 - espresso, 2 - latte, 3 - cappuccino, back - to main menu:
+> 1
 ```
 
-## Contributing
+## Contribution Guidelines
 
-Contributions to this project are welcome! Here are a few ways you can help:
+We welcome contributions from the community! If you wish to contribute, please follow these steps:
 
-- Report bugs and issues.
-- Suggest improvements or new features.
-- Improve the documentation or write tutorials.
-- Submit pull requests with bug fixes or new features.
-
-Before contributing, please review the `CONTRIBUTING.md` file for detailed information on how to get started with contributing to this project.
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Commit your changes with descriptive messages.
+4. Push your branch to your forked repository.
+5. Open a pull request detailing your changes.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details. This means you are free to use, modify, and distribute the project as long as you include the original license and copyright notice.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
 ---
 
-This README is a general template and should be customized to fit the specifics of your project. For more detailed guidance on writing a README, consider looking at comprehensive resources or README templates available online.
+Thank you for checking out the Hyperskill Coffee Machine project! If you have any questions or feedback, feel free to open an issue or reach out.
+```
